@@ -1,16 +1,51 @@
-# React + Vite
+# ParkSmart Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+ParkSmart Frontend is a React application that communicates with the ParkSmart Backend API.
 
-Currently, two official plugins are available:
+The application allows users to manage parking areas, parking spots and parking sessions through a modern web interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies
+- React
+- Axios
+- JavaScript
+- CSS
+- Vite
 
-## React Compiler
+## Features
+- View parking areas
+- View parking spots
+- View parking sessions
+- Communicate with ASP.NET Core API
+- Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
 
-## Expanding the ESLint configuration
+src/
+├── components
+├── pages
+├── services
+├── App.jsx
+└── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Project
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the application:
+
+```bash
+npm run dev
+```
+
+## API Communication
+
+The frontend communicates with the ParkSmart Backend using Axios and REST API endpoints.
+
+## Author
+
+Hager Sayed
